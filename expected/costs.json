@@ -1,0 +1,12 @@
+{
+  "native_attempts": 126,
+  "status_counts": {
+    "PASS": 124,
+    "FAIL": 2
+  },
+  "native_wall_seconds": 5681.597263813019,
+  "physical_tests": 0,
+  "scope": "Archived R5-to-R6V2 stage only; process durations summed, not total interaction/inference time.",
+  "labels_including_controls": 21,
+  "catalog_sha256": "dc37c2d3358901f5c079ae8f51acabcbb597ef4eeea90a39b1f1480de3ce3764"
+}

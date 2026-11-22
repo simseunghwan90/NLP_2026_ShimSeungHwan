@@ -1,0 +1,268 @@
+{
+  "LAT3_Apos_s1": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_143858_24563_LAT3_Apos_s1_Baseline/result.json",
+      "result_sha256": "8957daf17f61fec6dd1899fa2442d514783be34670e1d6648fe5686f6bf5092d",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "cb084c4a30992cf10cfc73671f5a22c61626e7753b537600f184be2661c62a3f",
+      "speed_sha256": "2bdc497cc16b9cc590fad9a4c6933d0414476f29f7a1edd452d20babd6a1b8c3",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_144245_27495_LAT3_Apos_s1_Previous/result.json",
+      "result_sha256": "8b26d0bef5c56ac9ac81be879fc93551ae4cf5e4f6bb5d253bd701cddba84798",
+      "model_sha256": "040191cf91bad87660548157857c3f496cb043a21cabe4fd7390c5af4ae8d462",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "4f4fc7b59026a8601ed4c9628bffaa33fcd0a4fee25df5a2410a864882c0e92a",
+      "speed_sha256": "237d8fa7df36eed443daefbb62acfc337a6260944f896f3c3111fd5e4caa6dd3",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_022928_73466_LAT3_Apos_s1_R6V2/result.json",
+      "result_sha256": "98e5577c72969c23fa2cc7cef951aea622d2e0fbe4e491595cab83e1b0918b57",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "bf6fb31e8bbe18486995f13104097cafe61debc3b2f9dc70c3e5a86376473808",
+      "speed_sha256": "8caf6579923a69cadb3e82febc7eb54150c7e8cc81a1b9852dd1fce7ba6b4134",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "LAT3_Apos_s2": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_143957_25095_LAT3_Apos_s2_Baseline/result.json",
+      "result_sha256": "1d30972984bcac8a3cf65e28eec6a370f072f9697694859e72f4a1f00c1f8c1a",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "d431f0b6188acf0a3896a837e16be92169146fce5a3fad83e7468723939814c2",
+      "speed_sha256": "4e0bfab3a5a43619ed2700859fedd49e2b2b254d90dde907dcb8193f1908d4f0",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-21_staged_calibration/native_replays/20261121_155855_107151_LAT3_Apos_s2_M0/result.json",
+      "result_sha256": "996f6a2566c20251fe18b61a88128cd86d73c58aeb2ed08c3b92e7c057beed44",
+      "model_sha256": "79062b6e29446938173a0d2755b912c2f6b0f85353ffd9b812d3a3508298986e",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "5e85dcaf60f8295b03122d3374c5d7124bc7273920d214711286553f1c28bb60",
+      "trajectory_sha256": "67b0934b262aa12c60f791203eef9424639f9e4f37ce9398a18d9df5712927e0",
+      "speed_sha256": "0ef092c754867748787be3ceacf20e4d7c7c01d1e610140cadc26d4560adc180",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_022947_73466_LAT3_Apos_s2_R6V2/result.json",
+      "result_sha256": "787b2a3b8e71cdb83fcf90c34e66acdf694f25882abae44c811ee1096d45492b",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "a9a626fd65170d10a8007fa95e5a1420a7e1dca20a6544e4bbf823abf8659738",
+      "speed_sha256": "b6c08a3dafa4b4fa6fa0681c1a405f848f8b818a8e13dfd5c81b757fef7f1835",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "LAT3_Aneg_s1": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_144015_25095_LAT3_Aneg_s1_Baseline/result.json",
+      "result_sha256": "929674b7fd89f40813f4c73e700c4a0716aacd1536f7fad4f005a5f6167a5d03",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "42492fd870bed9645d2dec98385bb32ec20b5072f4234ce265314197d902f06c",
+      "speed_sha256": "5394242d4e29c30aecd7b8925f14dc454cd6709688071e49760fbff6297f1b89",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-21_staged_calibration/native_replays/20261121_155912_107151_LAT3_Aneg_s1_M0/result.json",
+      "result_sha256": "eaa94c9e2822b193e5edae8ffbc5813d239ce7a6bd22bd811e9b965b4d102bee",
+      "model_sha256": "79062b6e29446938173a0d2755b912c2f6b0f85353ffd9b812d3a3508298986e",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "5e85dcaf60f8295b03122d3374c5d7124bc7273920d214711286553f1c28bb60",
+      "trajectory_sha256": "5e5e95261c1908810971da6ea68be8d16b36af371f6abdf6a9269e54367bc9a8",
+      "speed_sha256": "bb951df35d15f3feb931ef29b026be5c97714533b8c0225a655ba90a8c198db0",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_023004_73466_LAT3_Aneg_s1_R6V2/result.json",
+      "result_sha256": "963cd4db91add72cf9403b2846305bbc69844a016c23aa9d70f1614e746e0de7",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "dfd11e7ef71dbdf790a5dd5e75d34a935fb8f5566f14177c608e89efa78cdcc7",
+      "speed_sha256": "323c6393528322e60e962754c761f34155b30f2d28dc6b96fbb2e38d79c25701",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "LAT5_L_s1": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_150607_41621_LAT5_L_s1_Baseline/derived_plot/result.json",
+      "result_sha256": "030b2822b6a96b169a08c273ee8a234c87b7a6793db133b799926a1247da8101",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "6039351f4a08d0101b14744bc17019da981489f1c8381421da2373166a589b24",
+      "speed_sha256": "f8554d760f5296b40ac27de2b537dff7d6429dc23fa82a23425150552828a51e",
+      "status": "COMPLETE_WITH_CONTACT_FLAGS",
+      "contact_flags": {
+        "samples": 6,
+        "duration_s": 0.06,
+        "first_relative_s": 117.839997254,
+        "final_relative_s": 160.289996305,
+        "max_abs_z_from_settled_m": 0.00169536587782,
+        "meaning": "At least one wheel reported in air. Original contact validation stays FAIL; not a model acceptance."
+      }
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-21_staged_calibration/native_replays/20261121_160545_110586_LAT5_L_s1_M0/result.json",
+      "result_sha256": "9dd5ab4dc1355e6a129c8ea2388df3380114cbfdd7cd01a1cc90c70d0707764a",
+      "model_sha256": "79062b6e29446938173a0d2755b912c2f6b0f85353ffd9b812d3a3508298986e",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "5e85dcaf60f8295b03122d3374c5d7124bc7273920d214711286553f1c28bb60",
+      "trajectory_sha256": "8cd44993b57b3dd8cd2615c50b2ccc02fb1c901327ba571ab2fa3359ee3f867a",
+      "speed_sha256": "9562023259591ba975656b5417c878c1dc178202609c6d7b3d7c9b0d19300eb2",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_023449_73466_LAT5_L_s1_R6V2/result.json",
+      "result_sha256": "782f47ac862cdb9929af08e48e47d5e739caa1b9bd2bdb19bef4a6bb5ceb136a",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "a4ae5e4f5cdb15f9ae8a32183a2b69130a94616a633464c55708d9ecc1d55331",
+      "speed_sha256": "9508ea6c10c7e47b00f206777fef2a1d1aa95882169dabd3a28424fba1f983bf",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "LON5_Aneg_v50_s1": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_150729_41621_LON5_Aneg_v50_s1_Baseline/result.json",
+      "result_sha256": "103d181035d573f22f1b619c02d5e1d2a08fe452e15a5473d01be96efc4e3fcf",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "7b8f49e8f5009dd8ff1f8743620317b85189068dec621c2a08dc633ac4335780",
+      "speed_sha256": "3537b36f77d5fb014db10b4e30d3651442241e6b0226936d7bfc9539ccd17f87",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_150825_46846_LON5_Aneg_v50_s1_Previous/result.json",
+      "result_sha256": "8c8c648d2e66189d3534672ec6309704a1f699e033aa3dc9d7cd4394a2491f1f",
+      "model_sha256": "040191cf91bad87660548157857c3f496cb043a21cabe4fd7390c5af4ae8d462",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "07ac312d91c3ab468b2b1085ce095cbb8d9d9b4faf17177a531a279b71b8f032",
+      "speed_sha256": "f9ba33c42b5e334cbb59707e24e4a771add755c596726e93d575917c586bbe43",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_023740_73466_LON5_Aneg_v50_s1_R6V2/result.json",
+      "result_sha256": "36a2a53895ebf0f233cac62ff941a5aa19679247169eeb9366bde4a6a948d9fd",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "3f06b59edbfb801e193764bae843a0a4f483b1296f391bb93d07ae273ea7b8dc",
+      "speed_sha256": "605637563866b59b8156d326c0f1300ae5fcb75b699c2a9a29e9e8bf8cb95610",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "MOVE_LAT3_Apos_s1": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_144031_25095_MOVE_LAT3_Apos_s1_Baseline/derived_plot/result.json",
+      "result_sha256": "423df858ea315e6c79c9dcd4c739f5ce99576c3f8405736740f5b9a4af9417ab",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "5d596fe756e50930498055ccde9d30b770ea5c5daaef15614f8300e93231f09b",
+      "speed_sha256": "c914de2c3a27e3e0575b19b1ebc994f92e9d7bddf91250108454ffad8ced8c67",
+      "status": "COMPLETE_WITH_CONTACT_FLAGS",
+      "contact_flags": {
+        "samples": 435,
+        "duration_s": 4.3500000000000005,
+        "first_relative_s": 5.859999757260001,
+        "final_relative_s": 111.229997402,
+        "max_abs_z_from_settled_m": 0.00305263511837,
+        "meaning": "At least one wheel reported in air. Original contact validation stays FAIL; not a model acceptance."
+      }
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_144308_27495_MOVE_LAT3_Apos_s1_Previous/result.json",
+      "result_sha256": "9082ff2a870c24641080323b4572208e8005fe70474f7c78732968dba5f973b1",
+      "model_sha256": "040191cf91bad87660548157857c3f496cb043a21cabe4fd7390c5af4ae8d462",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "0d0787137f2fc657285ef4acba7e1183feb528bdf40268a3b34d4d6a8578c268",
+      "speed_sha256": "4143d05d7ad2d80cf9409eddc0a6c86f93207985b2c0fc255cb13796973537ca",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_024100_73466_MOVE_LAT3_Apos_s1_R6V2/result.json",
+      "result_sha256": "14b790e44e8b3014cede7e13bd6da8086beefca0419719cd2b8f6a311b421876",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "8ce847f5f4693f6c6cd68fd9e1330bdd23e6ecbe5894dbb2f7bc4bf10cf3b2d0",
+      "speed_sha256": "b33f0e772529dfc37d58e5d3081fd2566da5b45565146e3ee85844b2a2e63ad8",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  },
+  "MOVE_LAT3_Apos_s2": {
+    "Baseline": {
+      "result": "experiments/evidence/2026-11-22_hw2_experiments/comparison/replay_links/20261122_144124_25095_MOVE_LAT3_Apos_s2_Baseline/derived_plot/result.json",
+      "result_sha256": "f095b462dbcebbf5c423ca3f7135e2db6050e8bfd4c264495a2d041fed480400",
+      "model_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+      "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+      "binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418",
+      "trajectory_sha256": "dc34c7ac917f40a0ee7139deb8090ffed888274da1ce604264461f7f4a81bb88",
+      "speed_sha256": "b8feb098bbb7554e03d1402729c2cb059b6e1e375c7172a16d9569b9c01456e4",
+      "status": "COMPLETE_WITH_CONTACT_FLAGS",
+      "contact_flags": {
+        "samples": 558,
+        "duration_s": 5.58,
+        "first_relative_s": 6.079999752339999,
+        "final_relative_s": 115.149997314,
+        "max_abs_z_from_settled_m": 0.00255214702338,
+        "meaning": "At least one wheel reported in air. Original contact validation stays FAIL; not a model acceptance."
+      }
+    },
+    "Previous": {
+      "result": "experiments/evidence/2026-11-21_staged_calibration/native_replays/20261121_161206_116108_MOVE_LAT3_Apos_s2_M0/result.json",
+      "result_sha256": "70a571a3277ecf2f000545befbd41a219ec47c35094667e2d7dd9a7204bd6521",
+      "model_sha256": "79062b6e29446938173a0d2755b912c2f6b0f85353ffd9b812d3a3508298986e",
+      "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+      "binary_sha256": "5e85dcaf60f8295b03122d3374c5d7124bc7273920d214711286553f1c28bb60",
+      "trajectory_sha256": "29adcca76843f6680e968a1a32c45608568ebfc85b27c366b37bfbbd2f08a5ed",
+      "speed_sha256": "e1751b44971d810f99ba25eafdccab4c1801d02c0d2f08616ecc05f6314b3c9c",
+      "status": "PASS",
+      "contact_flags": null
+    },
+    "R6V2": {
+      "result": "experiments/evidence/2026-11-22_r5_stages/native_replays/20261122_022209_73466_MOVE_LAT3_Apos_s2_R6V2/result.json",
+      "result_sha256": "a396e95b0521cc210abeda096644d29d7fc660218a9a30d03a50af7150b4b33d",
+      "model_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+      "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+      "binary_sha256": "be8da817ffc9997befd684d7e62053277ad208c62eedd10046da5b4b5187c4e1",
+      "trajectory_sha256": "98076a421a498e1a42d7346767fa6975a7c29f17304eda361733f0b032a607b2",
+      "speed_sha256": "08abd1de23e68eac3934237037df1f7f3bc75aeef52afdcabfdb6ef3780d2cf1",
+      "status": "PASS",
+      "contact_flags": null
+    }
+  }
+}

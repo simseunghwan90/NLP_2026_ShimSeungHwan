@@ -1,0 +1,5 @@
+{
+  "additional_delay_s": 0.0,
+  "additional_tau_s": 0.0,
+  "response_provenance": "2026-11-10 integration baseline; uncalibrated. Zero means no extra response correction."
+}

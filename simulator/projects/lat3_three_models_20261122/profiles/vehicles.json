@@ -1,0 +1,16 @@
+{
+  "A1": {
+    "asset": "/Game/Vehicles/A1/CarPawn",
+    "class": "/Game/Vehicles/A1/CarPawn.CarPawn_C",
+    "rpc_name": "A1",
+    "mass_kg": 550,
+    "max_steering_deg": 20
+  },
+  "Car630": {
+    "asset": "/Game/Vehicles/Car630/Car630",
+    "class": "/Game/Vehicles/Car630/Car630.Car630_C",
+    "rpc_name": "FSCar",
+    "mass_kg": 630,
+    "max_steering_deg": 25
+  }
+}

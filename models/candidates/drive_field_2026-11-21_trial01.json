@@ -1,0 +1,92 @@
+{
+  "model_id": "DRIVE-FIELD-20261121-trial01",
+  "provenance": {
+    "experiment": "FIELD-CAL-20261121-01",
+    "status": "candidate pending native and regression checks",
+    "source": "LON5 acceleration/coast/brake and LON3 brake diagnosis",
+    "inherited": "All throttle knots, torque, inertia and constant rear residual retained"
+  },
+  "motor_moi_kg_m2": 0.005,
+  "rear_damping_nm_s": 0.6,
+  "rear_residual_torque_nm": 8.40377582806467,
+  "motor_max_rpm": 10000,
+  "torque_curve": [
+    [
+      0,
+      57
+    ],
+    [
+      7500,
+      49.199434689655796
+    ],
+    [
+      10000,
+      46.599246252874394
+    ]
+  ],
+  "pedal_map": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      43.539736859471546,
+      0.0
+    ],
+    [
+      60.0,
+      0.024422295285006185
+    ],
+    [
+      70.0,
+      0.03925941852933247
+    ],
+    [
+      75.0,
+      0.046921367887364576
+    ],
+    [
+      80.0,
+      0.07368931154389369
+    ],
+    [
+      85.0,
+      0.1276644284838706
+    ],
+    [
+      90.0,
+      0.1961388482378009
+    ],
+    [
+      95.0,
+      0.2791125708056843
+    ],
+    [
+      100.0,
+      0.3765855961875211
+    ]
+  ],
+  "low_speed_substeps": 60,
+  "brake_map": [
+    [
+      0,
+      0
+    ],
+    [
+      40,
+      0.12
+    ],
+    [
+      50,
+      0.14
+    ],
+    [
+      60,
+      0.2
+    ],
+    [
+      100,
+      1
+    ]
+  ]
+}

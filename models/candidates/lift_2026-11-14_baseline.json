@@ -1,0 +1,4 @@
+{
+  "model_id": "initial_physics_raw_observation",
+  "provenance": "Original A1 PhysX parameters and linear pedal mapping; explicit research lift fixture and raw RPM telemetry only."
+}

@@ -1,0 +1,99 @@
+{
+  "model_id": "DRIVE-TRIAL03-REFINE-20261121-R1",
+  "provenance": {
+    "parent": "DRIVE-FIELD-20261121-trial03",
+    "status": "experimental",
+    "design": "experiments/evidence/2026-11-21_trial03_refinement/powered_loss_design.json",
+    "change": "Effective powered resistance only; no independently measured physical component claim"
+  },
+  "motor_moi_kg_m2": 0.005,
+  "rear_damping_nm_s": 0,
+  "rear_residual_torque_nm": 8.40377582806467,
+  "motor_max_rpm": 10000,
+  "torque_curve": [
+    [
+      0,
+      57
+    ],
+    [
+      7500,
+      49.199434689655796
+    ],
+    [
+      10000,
+      46.599246252874394
+    ]
+  ],
+  "pedal_map": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      43.539736859471546,
+      0.0
+    ],
+    [
+      60.0,
+      0.024422295285006185
+    ],
+    [
+      70.0,
+      0.03925941852933247
+    ],
+    [
+      75.0,
+      0.046921367887364576
+    ],
+    [
+      80.0,
+      0.07368931154389369
+    ],
+    [
+      83,
+      0.10607438170787983
+    ],
+    [
+      85,
+      0.17
+    ],
+    [
+      90,
+      0.22
+    ],
+    [
+      95,
+      0.275
+    ],
+    [
+      100,
+      0.33
+    ]
+  ],
+  "low_speed_substeps": 60,
+  "brake_map": [
+    [
+      0,
+      0
+    ],
+    [
+      40,
+      0.12
+    ],
+    [
+      50,
+      0.14
+    ],
+    [
+      60,
+      0.2
+    ],
+    [
+      100,
+      1
+    ]
+  ],
+  "rear_coast_damping_nm_s": 0.6,
+  "powered_residual_offset_nm": -2.24,
+  "powered_curvature_loss_nm_m2": 349.2
+}

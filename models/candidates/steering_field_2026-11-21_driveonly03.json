@@ -1,0 +1,20 @@
+{
+  "model_id": "STEER-FIELD-20261121-driveonly03",
+  "base_longitudinal_model": "models/candidates/drive_field_2026-11-21_trial03.json",
+  "base_longitudinal_sha256": "428e3d053468705d098c73e2c14e28661ca0b39f00483cb0c29684074bca4880",
+  "handwheel_to_nominal_tire_ratio": 12.6,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": {
+    "experiment": "FIELD-CAL-20261121-01",
+    "status": "ablation candidate pending same fixed regression criteria",
+    "source": "Previous steering unchanged; only drive trial03 selected; separate drive from steering geometry"
+  }
+}

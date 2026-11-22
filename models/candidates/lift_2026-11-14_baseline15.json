@@ -1,0 +1,5 @@
+{
+  "model_id": "LIFT-CAL-20261114-baseline15",
+  "provenance": "Original A1 PhysX parameters and linear pedal mapping; explicit research lift fixture and raw RPM telemetry only. Vehicle low-speed solver substeps changed for numerical convergence; global frame dt unchanged.",
+  "low_speed_substeps": 15
+}

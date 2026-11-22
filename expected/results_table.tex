@@ -1,0 +1,32 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Window / group & Model & Speed RMSE & Position RMSE & Endpoint error & Turn error \\
+ & & [m/s] & [m] & [m] & [rev] \\
+\midrule
+LAT3 (3-window mean) & Baseline & 8.146 & 78.69 & 126.90 & 0.410 \\
+ & Previous & 0.301 & 2.75 & 4.52 & 0.040 \\
+ & R6V2 & 0.220 & 2.18 & 3.30 & 0.005 \\
+\addlinespace[2pt]
+LAT5 L s1 & Baseline$^{\dagger}$ & 12.075 & 38.39 & 16.77 & 10.903 \\
+ & Previous & 0.985 & 55.90 & 53.39 & 1.654 \\
+ & R6V2 & 0.113 & 2.92 & 2.98 & 0.011 \\
+\addlinespace[2pt]
+LON5 A$-$ 50 s1 & Baseline & 5.244 & 167.93 & 216.12 & 1.117 \\
+ & Previous & 2.135 & 187.23 & 329.68 & 0.479 \\
+ & R6V2 & 0.462 & 35.11 & 63.56 & 0.071 \\
+\addlinespace[2pt]
+MOVE LAT3 A$+$ s1 & Baseline$^{\dagger}$ & 10.958 & 157.21 & 199.95 & 12.775 \\
+ & Previous & 1.252 & 27.02 & 33.54 & 0.711 \\
+ & R6V2 & 1.189 & 31.33 & 32.23 & 1.139 \\
+\addlinespace[2pt]
+MOVE LAT3 A$+$ s2 & Baseline$^{\dagger}$ & 10.623 & 16.36 & 3.76 & 17.072 \\
+ & Previous & 1.772 & 22.72 & 31.42 & 1.619 \\
+ & R6V2 & 0.079 & 1.69 & 2.38 & 0.005 \\
+\bottomrule
+\end{tabular}
+\caption{Matched development replays. Lower is better for all errors. LAT3 rows are equal-weight arithmetic means of three window-level metrics; other rows are individual windows. $^{\dagger}$Full rollouts completed, but the wheel-contact validation failed; these results remain failures and are included to expose Baseline behavior. These diagnostic metrics do not change the original validation status.}
+\label{tab:exp_results}
+\end{table*}

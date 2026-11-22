@@ -1,0 +1,18 @@
+{
+  "Yongin": {
+    "asset": "/Game/Maps/Yongin/Yongin"
+  },
+  "TestPad": {
+    "asset": "/Game/Maps/TestPad/TestPad"
+  },
+  "YonginSLAMFrame": {
+    "asset": "/Game/Maps/YonginSLAMFrame/YonginSLAMFrame",
+    "stage": "original_mgeo_rigid_frame_copy",
+    "frame": "track_merged map ENU meters; Unreal world [100*x,-100*y,100*z]",
+    "geometry_basis": "original_mgeo_rigid_transform_only",
+    "reference": "racingline/slam_mgeo",
+    "frame_report": "reports/slam_mgeo_frame.json",
+    "original_road_and_scenery_preserved": true,
+    "runtime_driving_validated": false
+  }
+}

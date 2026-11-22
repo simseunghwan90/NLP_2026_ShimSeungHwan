@@ -1,0 +1,29 @@
+{
+  "model_id": "STEER-FIELD-20261120-v2",
+  "base_longitudinal_model": "models/candidates/drive_field_2026-11-20_v1.json",
+  "base_longitudinal_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+  "handwheel_to_nominal_tire_ratio": 12.6,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": {
+    "source_archive_sha256": "67097a4372d54a49dfe0a630b33aee74ac2b296a7deac5f5827c73806a07db33",
+    "experiment": "FIELD-CAL-20261120-01",
+    "dynamics": "Fit LAT1 cycle1 final CAN 0x210 to 0x200, original timestamps",
+    "delay": "Effective CAN-to-feedback delay, not pure actuator hardware latency; replaces previous 0.088s",
+    "geometry": "Inherited neighbor ratio/inner tire convention; not identified by this stationary capture",
+    "rate_limit": "Inherited assumption 140 deg/s; not identified by +/-20deg stationary ramps",
+    "limits": "Low amplitude stationary development fit; no high-speed, road geometry or final evaluation claim",
+    "validation_status": "Stationary native steering replay accepted; combined ground-drive candidate selected on two development segments",
+    "previous_model": "models/candidates/steering_neighbor_2026-11-17_v1.json",
+    "previous_model_sha256": "0961d5f6863421030d6559ebf2f55fc8b6d7c0d97b9359cadf8b6a5343513134",
+    "report": "experiments/evidence/2026-11-20_field_update/REPORT.md",
+    "revision": "v1 steering parameters unchanged; v2 selects the new ground-drive model"
+  }
+}

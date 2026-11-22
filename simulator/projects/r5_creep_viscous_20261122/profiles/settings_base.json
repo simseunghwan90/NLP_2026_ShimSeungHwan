@@ -1,0 +1,56 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",
+  "ClockSpeed": 1.0,
+  "ViewMode": "SpringArmChase",
+  "CameraDirector": {
+    "FollowDistance": -3.0
+  },
+  "ApiServerPort": 41579,
+  "LocalHostIp": "127.0.0.1",
+  "PawnPaths": {
+    "DefaultCar": {
+      "PawnBP": "Class'/Game/MIRUA1/CarPawn.CarPawn_C'"
+    }
+  },
+  "Vehicles": {
+    "A1": {
+      "VehicleType": "PhysXCar",
+      "AllowAPIAlways": true,
+      "EnableCollisions": true,
+      "EnableCollisionPassthrogh": false,
+      "RC": {
+        "RemoteControlID": -1
+      },
+      "Sensors": {
+        "Imu": {
+          "SensorType": 2,
+          "Enabled": false
+        },
+        "Gps": {
+          "SensorType": 3,
+          "Enabled": false
+        },
+        "GSS": {
+          "SensorType": 7,
+          "Enabled": false
+        }
+      },
+      "Cameras": {}
+    }
+  },
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 320,
+        "Height": 240
+      }
+    ]
+  },
+  "Recording": {
+    "Enabled": false,
+    "Cameras": []
+  },
+  "SubWindows": []
+}

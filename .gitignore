@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+results/
+*.mcap
+*.db3
+*.tar
+*.tar.gz
+local_only/
+dataset/
+simulator_release/
