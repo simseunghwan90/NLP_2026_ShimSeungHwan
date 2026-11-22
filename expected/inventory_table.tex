@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Test family & $n$ & Min. & $n_{3}$ \\
+\midrule
+Stationary / self-check & 3 & 2.07 & 0 \\
+LAT3: straight / zero point & 3 & 1.13 & 3 \\
+LAT4/5: constant steering & 8 & 15.68 & 1 \\
+LAT6: varying steering & 1 & 6.51 & 0 \\
+LON2: pedal / acceleration & 2 & 1.04 & 0 \\
+LON3: braking ladder & 1 & 0.93 & 0 \\
+LON5/K: higher-speed straight & 4 & 3.82 & 1 \\
+MOVE: repositioning & 6 & 12.99 & 2 \\
+\midrule
+Total & 28 & 44.18 & 7 \\
+\bottomrule
+\end{tabular}
+\caption{Development inventory: $n$ is the number of retained replay windows, not independent experiments. $n_3$ counts windows in the matched three-model comparison. Durations include retained starts and stops.}
+\label{tab:exp_inventory}
+\end{table}

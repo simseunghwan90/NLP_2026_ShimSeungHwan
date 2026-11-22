@@ -1,0 +1,64 @@
+{
+  "model_id": "STEER-R5-STAGES-20261122-R6A",
+  "base_longitudinal_model": "models/candidates/drive_r5_stages_2026-11-22_R6A.json",
+  "base_longitudinal_sha256": "fe0a15982beea837bb26a363eb9fce663c94e9ef350e1b6b117599729d1dd909",
+  "handwheel_to_nominal_tire_ratio": 12.6,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": {
+    "parent": "models/candidates/steering_r5_stages_2026-11-22_S7DRIVEFIX.json",
+    "design": "experiments/evidence/2026-11-22_r5_stages/R6A_design.json",
+    "status": "experimental"
+  },
+  "handwheel_to_inner_tire_deg": [
+    [
+      -150.0,
+      -11.288239671637752
+    ],
+    [
+      -74.800003052,
+      -5.706558047643793
+    ],
+    [
+      -40,
+      -2.189935736317719
+    ],
+    [
+      -14.130808976342838,
+      0.0
+    ],
+    [
+      5,
+      1.5854191316309387
+    ],
+    [
+      15.0,
+      2.6823830449553925
+    ],
+    [
+      30.600000381,
+      4.814547571838504
+    ],
+    [
+      35.200000763,
+      4.957463106821155
+    ],
+    [
+      73.199996948,
+      8.041475034352313
+    ],
+    [
+      150.0,
+      14.173386858429678
+    ]
+  ],
+  "native_project": "simulator/variants/r5_stages_20261122",
+  "native_binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418"
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Development comparison; no heldout claim. No vehicle parameters changed for publication.",
+  "source_inventory": "experiments/evidence/2026-11-22_r5_stages/windows.json",
+  "selection_record": "experiments/evidence/2026-11-22_hw2_experiments/design.json",
+  "baseline_audit": "experiments/evidence/2026-11-22_lat3_three_models/baseline_audit.json",
+  "human_attribution": "paper/hw2_comparison_plan.json",
+  "nuvo_evidence": "experiments/evidence/2026-11-22_nuvo_intake/received/REPORT.md",
+  "matched_windows": 7,
+  "matched_rollouts": 21,
+  "validation_status_counts": {
+    "PASS": 18,
+    "FAIL": 3
+  },
+  "computed_percentages": {
+    "CircleSpeedReduction": 88.48954297149879,
+    "HighSpeedReduction": 78.35653096076484,
+    "StraightSpeedReduction": 27.02739472046257
+  },
+  "source_manuscripts": [
+    {
+      "path": "main.tex",
+      "role_ko": "원본 전체 LaTeX 원고",
+      "sha256": "6ecbc419de39aa7ea3db8f01bee6b66235efce5abe97c9611560157c28c23f8a"
+    },
+    {
+      "path": "custom.bib",
+      "role_ko": "참고문헌 데이터베이스",
+      "sha256": "4c1419c4608b6e0d49d05262fc7c9ceba92ade1dcf0d9836a35ff81ab645902d"
+    },
+    {
+      "path": "acl.sty",
+      "role_ko": "ACL 본문 양식",
+      "sha256": "19dfeddc2c0e448f3926a0bef048a9db3f3611b46265b760caabd7ada4f361de"
+    },
+    {
+      "path": "acl_natbib.bst",
+      "role_ko": "ACL 참고문헌 출력 양식",
+      "sha256": "6fbb306202290f4b68e74ac1460a8b27398500cb6dfeb4492e74c457eae7cd1e"
+    }
+  ]
+}

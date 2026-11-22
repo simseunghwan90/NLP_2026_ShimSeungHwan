@@ -1,0 +1,64 @@
+{
+  "model_id": "LIFT-CAL-20261114-v4",
+  "provenance": "Development candidate. Torque/inertia scale is not uniquely identified. v1 retains initial motor inertia; v2 uses an assumed effective inertia to test joint consistency with prior road fit. Not measured rotor inertia or identified regenerative braking. Residual torque uses regularized Coulomb wheel damping after service-brake implementation was rejected.",
+  "motor_moi_kg_m2": 0.005,
+  "rear_damping_nm_s": 0,
+  "rear_residual_torque_nm": 8.40377582806467,
+  "motor_max_rpm": 10000,
+  "torque_curve": [
+    [
+      0,
+      57
+    ],
+    [
+      7500,
+      49.199434689655796
+    ],
+    [
+      10000,
+      46.599246252874394
+    ]
+  ],
+  "pedal_map": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      43.539736859471546,
+      0.0
+    ],
+    [
+      60.0,
+      0.05087978184376289
+    ],
+    [
+      70.0,
+      0.08179045526944265
+    ],
+    [
+      75.0,
+      0.09775284976534288
+    ],
+    [
+      80.0,
+      0.15351939904977852
+    ],
+    [
+      85.0,
+      0.20928594833421413
+    ],
+    [
+      90.0,
+      0.26505249761864985
+    ],
+    [
+      95.0,
+      0.32081904690308544
+    ],
+    [
+      100.0,
+      0.3765855961875211
+    ]
+  ]
+}

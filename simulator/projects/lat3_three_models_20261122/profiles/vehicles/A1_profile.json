@@ -1,0 +1,49 @@
+{
+  "profile": "A1_EV_v1_provisional",
+  "mass_kg": 550,
+  "wheelbase_m": 2.36,
+  "front_track_m": 1.45,
+  "rear_track_m": 1.45,
+  "overall_length_m": 2.92,
+  "front_radius_m": 0.275,
+  "rear_radius_m": 0.285,
+  "front_section_width_m": 0.243,
+  "rear_section_width_m": 0.296,
+  "front_rim_width_in": 8,
+  "rear_rim_width_in": 10,
+  "rim_diameter_in": 13,
+  "front_steer_max_deg": 20,
+  "rear_steer_max_deg": 0,
+  "reduction_ratio": 9.23,
+  "motor_peak_torque_nm": 57,
+  "motor_peak_power_w": 13000,
+  "motor_constant_torque_end_rpm": 2100,
+  "simulation_motor_cutoff_rpm": 7500,
+  "motor_moi_kg_m2": 0.1,
+  "differential": "open_rear_drive_provisional",
+  "collision_box_center_cm": [
+    0,
+    0,
+    35
+  ],
+  "collision_box_dimensions_cm": [
+    250,
+    100,
+    42
+  ],
+  "notes": {
+    "geometry": "User specifications override all early model dimensions. 2.92 m is the selected straight-wheel tire envelope, not a body measurement.",
+    "radii": "Nominal tire marking / 2 used as provisional simulation radii, not measured loaded or effective rolling radii.",
+    "widths": "Unverified Hankook catalog section widths used for initial visual and wheel geometry, not from the early model.",
+    "steering": "User-selected temporary +/-20 degrees. 추후 확인 꼭 필요.",
+    "motor": "Renault donor reference peak 57 Nm, 13 kW, 0-2100 rpm torque plateau; inferred envelope thereafter. Installed SEVCON calibration not verified.",
+    "cutoff": "7500 rpm is an explicit simulation placeholder, not an OEM verified limit or a road speed limiter.",
+    "ratio": "9.23:1 is a donor-document candidate, not a verified installed gearbox ratio.",
+    "differential": "Open rear differential is a provisional modeling choice; actual locking behavior unknown.",
+    "unmeasured": "COM at collision box center and 50:50 static axle load are provisional. Tire forces, wheel mass, suspension, brakes, drag and inertia require measurements. Battery, inverter current/thermal/SOC effects and regen are not modeled in v1.",
+    "origin": "Modeling convention: midpoint of axles, straight-wheel nominal ground plane; +X forward +Y left +Z up in Blender. Unreal uses +Y right. This is not a measured vehicle or sensor frame."
+  },
+  "donor_reference": "https://www.renaultownersclub.com/wp-content/uploads/vehicles/Twizy.pdf#page=23",
+  "display_name": "A1 차량",
+  "vehicle_name": "A1"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "paper_label": "Baseline",
+    "role_ko": "실측 기반 보정 전 최초 모델이다.",
+    "snapshot": "experiments/baselines/2026-11-10_initial",
+    "metadata": "experiments/baselines/2026-11-10_initial/baseline.json",
+    "archive": "experiments/baselines/2026-11-10_initial/source_assets.tar",
+    "archive_sha256_recorded": "122246c64ca35afc1eb3e7f3cf8f507cabeeb651fda9faddba052e7e5e1a4ecc",
+    "verification_ko": "2026-11-22 baseline_audit.json에 보존 아카이브 해시와 1,287개 동일 파일, 계측을 추가한 CarPawnSimApi 2개 파일의 차이를 기록한다. 최초 차량 설정을 계측 빌드와 공통 TestPad 맵에서 재생하며 역사적 바이너리 실행과 구분한다. 7구간의 세 모델 비교와 원고 조판 검증은 matched_comparison_2026_11_22에 기록한다."
+  },
+  {
+    "paper_label": "Previous",
+    "role_ko": "이전 비교표에서 previous로 사용한 중간 보정 모델이다. R5나 trial03을 previous로 바꾸어 부르지 않는다.",
+    "steering": "models/candidates/steering_field_2026-11-20_v2.json",
+    "steering_model_id": "STEER-FIELD-20261120-v2",
+    "steering_sha256": "79062b6e29446938173a0d2755b912c2f6b0f85353ffd9b812d3a3508298986e",
+    "drive": "models/candidates/drive_field_2026-11-20_v1.json",
+    "drive_model_id": "DRIVE-FIELD-20261120-v1",
+    "drive_sha256": "36a47299121ae58f236723252df9c998bf814fc42668301d81b241014ee9a207",
+    "identity_source": "paper/AGENT_EXPERIMENT_RECORD_2026-11-21.md"
+  },
+  {
+    "paper_label": "R6V2",
+    "role_ko": "이번 논문 비교의 최종 연구 모델로 선택한다. 기존 기본 실행 모델의 교체나 모든 회귀 기준 통과를 뜻하지 않는다.",
+    "steering": "models/candidates/steering_r5_stages_2026-11-22_R6V2.json",
+    "steering_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+    "drive": "models/candidates/drive_r5_stages_2026-11-22_R6V2.json",
+    "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea",
+    "selection_record": "experiments/evidence/2026-11-22_r5_stages/selected_model.json",
+    "existing_regression_flags": [
+      "MOVE_LAT2_1_s2",
+      "MOVE_LAT2_2_s1"
+    ]
+  }
+]

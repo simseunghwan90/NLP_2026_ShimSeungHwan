@@ -1,0 +1,121 @@
+{
+  "LAT3_Apos_s1": {
+    "start_s": 1795155634.318308,
+    "end_s": 1795155658.9940124,
+    "duration_s": 24.67570424079895,
+    "initial_speed_mps": 0.001567527,
+    "role": "previous_development_regression",
+    "command_source": "experiments/evidence/2026-11-20_field_update/decoded/20261120_LAT3_Apos_s1/can_210.csv",
+    "command_sha256": "f75b628caa3451ab9032ca79d99e53a22e2741ed445eb9583a630d68b5b0dd2c",
+    "basis": "First powered input minus 1s through all powered/moving portions plus 2s; no simulator-result trimming",
+    "stationary": false,
+    "measured_final_speed_mps": 0.029671359628913773,
+    "initial_yaw_rate_deg_s": -0.02960818807305063,
+    "state_gaps_over_100ms": [
+      {
+        "before_s": 1795155635.3939395,
+        "after_s": 1795155635.7065473
+      }
+    ],
+    "quality": {
+      "rtk_fixed_fraction": 1.0,
+      "status_valid_fraction": 1.0
+    },
+    "interpretation": "Development response replay; maneuver/arrival success not inferred; no heldout claim"
+  },
+  "LAT3_Apos_s2": {
+    "start_s": 1795166280.758449,
+    "end_s": 1795166302.632595,
+    "duration_s": 21.874145984649658,
+    "initial_speed_mps": 0.001721997,
+    "role": "development",
+    "command_source": "experiments/evidence/2026-11-21_field_followup/decoded/20261120_LAT3_Apos_s2/commands.csv",
+    "command_sha256": "d788a1004de23310b1f886a684f9193b399129c2841c9245e4e6a6e4420532bb",
+    "basis": "First powered input minus 1s through all powered/moving portions plus 2s; no simulator-result trimming",
+    "stationary": false,
+    "measured_final_speed_mps": 0.00756518437817673,
+    "initial_yaw_rate_deg_s": -0.022975101978124107,
+    "state_gaps_over_100ms": [],
+    "quality": {
+      "rtk_fixed_fraction": 1.0,
+      "status_valid_fraction": 1.0
+    },
+    "interpretation": "Development response replay; maneuver/arrival success not inferred; no heldout claim"
+  },
+  "LAT3_Aneg_s1": {
+    "start_s": 1795166749.0227575,
+    "end_s": 1795166770.1330583,
+    "duration_s": 21.11030077934265,
+    "initial_speed_mps": 0.002546437,
+    "role": "development",
+    "command_source": "experiments/evidence/2026-11-21_field_followup/decoded/20261120_LAT3_Aneg_s1/commands.csv",
+    "command_sha256": "7cd36af64edec9ebbf30a487cb2c438d6fa639afb6accc83e079ea2bb3352836",
+    "basis": "First powered input minus 1s through all powered/moving portions plus 2s; no simulator-result trimming",
+    "stationary": false,
+    "measured_final_speed_mps": 0.005549479761862897,
+    "initial_yaw_rate_deg_s": 0.01637154004956698,
+    "state_gaps_over_100ms": [],
+    "quality": {
+      "rtk_fixed_fraction": 1.0,
+      "status_valid_fraction": 1.0
+    },
+    "interpretation": "Development response replay; maneuver/arrival success not inferred; no heldout claim"
+  },
+  "LAT5_L_s1": {
+    "start_s": 1795170179.9684503,
+    "end_s": 1795170344.1464083,
+    "duration_s": 164.1779580116272,
+    "initial_speed_mps": 0.009866239,
+    "role": "development",
+    "command_source": "experiments/evidence/2026-11-21_field_followup/decoded/20261120_LAT5_L_s1/commands.csv",
+    "command_sha256": "d1e43577502803ecd3bea44e8f4ef810fd8fd7ea89ffe5a34a2f95705506ddab",
+    "basis": "First powered input minus 1s through all powered/moving portions plus 2s; no simulator-result trimming",
+    "stationary": false,
+    "measured_final_speed_mps": 0.011701021689621659,
+    "initial_yaw_rate_deg_s": 0.013463692124114742,
+    "state_gaps_over_100ms": [],
+    "quality": {
+      "rtk_fixed_fraction": 1.0,
+      "status_valid_fraction": 1.0
+    },
+    "interpretation": "Development response replay; maneuver/arrival success not inferred; no heldout claim"
+  },
+  "LON5_Aneg_v50_s1": {
+    "start_s": 1795176156.108,
+    "end_s": 1795176193.288,
+    "initial_speed_mps": 0.002296064,
+    "role": "development_regression",
+    "command_source": "experiments/evidence/2026-11-21_field_followup/lon5_raw_210.csv",
+    "command_sha256": "6fc0eb1b8b3406d163f83935fdf23fb51c966e884251870eb1c7eb04cac7ad25",
+    "duration_s": 37.1800000667572
+  },
+  "MOVE_LAT3_Apos_s1": {
+    "start_s": 1795154483.444764,
+    "end_s": 1795154595.8346055,
+    "initial_speed_mps": 0.003881533,
+    "role": "development_expansion",
+    "command_source": "experiments/evidence/2026-11-21_field_followup/decoded/20261120_MOVE_LAT3_Apos_s1/commands.csv",
+    "command_sha256": "281eaa164dde62ee4d7502c1d74a96907cdca679da7b30436211938b3436344a",
+    "duration_s": 112.38984155654907,
+    "coverage_note": "Before native results: initial recorded rest through last motion/powered input plus 2s; continuous across all repeats, quality mask around observation gaps only"
+  },
+  "MOVE_LAT3_Apos_s2": {
+    "start_s": 1795154707.621714,
+    "end_s": 1795154823.965726,
+    "duration_s": 116.34401178359985,
+    "initial_speed_mps": 0.000985795,
+    "role": "previous_development_regression",
+    "command_source": "experiments/evidence/2026-11-20_field_update/decoded/20261120_MOVE_LAT3_Apos_s2/can_210.csv",
+    "command_sha256": "843d86ddd6a786554e5834330478e6e2c1c1bf9680000f492ef3a0c43c12c7fc",
+    "basis": "First powered input minus 1s through all powered/moving portions plus 2s; no simulator-result trimming",
+    "stationary": false,
+    "measured_final_speed_mps": 0.014441741913865347,
+    "initial_yaw_rate_deg_s": 0.02198828285305362,
+    "state_gaps_over_100ms": [],
+    "quality": {
+      "rtk_fixed_fraction": 1.0,
+      "status_valid_fraction": 1.0
+    },
+    "interpretation": "Development response replay; maneuver/arrival success not inferred; no heldout claim"
+  }
+}

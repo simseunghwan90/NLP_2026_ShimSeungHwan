@@ -1,0 +1,5 @@
+{
+  "model_id": "initial_physics_substeps60",
+  "provenance": "Original A1 PhysX parameters and linear pedal mapping; explicit research lift fixture and raw RPM telemetry only. Numerical resolution matched to final development candidate; original physical parameters retained.",
+  "low_speed_substeps": 60
+}

@@ -1,0 +1,74 @@
+{
+  "model_id": "DRIVE-FIELD-20261120-v1",
+  "provenance": {
+    "source": "LIFT-CAL-20261114-v7",
+    "experiment": "FIELD-CAL-20261120-01",
+    "trial": "agent-selected pedal gain 0.48 at <=80%, 1.00 at 100%; linearly interpolate",
+    "reason": "trial01 overpredicts MOVE late speed but underpredicts LAT3 burst; preserve v7 full-pedal point and reduce lower-pedal gain",
+    "scope": "low speed ground development; not validated for unloaded lift or high speed",
+    "selection": "Lower mean RMSE among two trials on the declared development cases",
+    "report": "experiments/evidence/2026-11-20_field_update/REPORT.md",
+    "baseline_sha256": "157ff758bbc92e828b40af89c09d757e4e3dedcfa2d18658e33b3c0576ec8d6d"
+  },
+  "motor_moi_kg_m2": 0.005,
+  "rear_damping_nm_s": 0,
+  "rear_residual_torque_nm": 8.40377582806467,
+  "motor_max_rpm": 10000,
+  "torque_curve": [
+    [
+      0,
+      57
+    ],
+    [
+      7500,
+      49.199434689655796
+    ],
+    [
+      10000,
+      46.599246252874394
+    ]
+  ],
+  "pedal_map": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      43.539736859471546,
+      0.0
+    ],
+    [
+      60.0,
+      0.024422295285006185
+    ],
+    [
+      70.0,
+      0.03925941852933247
+    ],
+    [
+      75.0,
+      0.046921367887364576
+    ],
+    [
+      80.0,
+      0.07368931154389369
+    ],
+    [
+      85.0,
+      0.1276644284838706
+    ],
+    [
+      90.0,
+      0.1961388482378009
+    ],
+    [
+      95.0,
+      0.2791125708056843
+    ],
+    [
+      100.0,
+      0.3765855961875211
+    ]
+  ],
+  "low_speed_substeps": 60
+}

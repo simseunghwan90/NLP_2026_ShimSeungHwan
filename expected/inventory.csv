@@ -1,0 +1,9 @@
+group,windows,duration_min,matched
+Stationary / self-check,3,2.0686668594678244,0
+LAT3: straight / zero point,3,1.1276691834131876,3
+LAT4/5: constant steering,8,15.68362150589625,1
+LAT6: varying steering,1,6.513729647795359,0
+LON2: pedal / acceleration,2,1.0418171882629395,0
+LON3: braking ladder,1,0.9313340028127034,0
+LON5/K: higher-speed straight,4,3.8212395270665485,1
+MOVE: repositioning,6,12.988217230637868,2

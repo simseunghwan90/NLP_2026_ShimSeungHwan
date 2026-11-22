@@ -1,0 +1,45 @@
+{
+  "model_id": "STEER-COURSE3-20261121-trial03_compat",
+  "base_longitudinal_model": "models/candidates/drive_field_2026-11-21_trial03.json",
+  "base_longitudinal_sha256": "428e3d053468705d098c73e2c14e28661ca0b39f00483cb0c29684074bca4880",
+  "handwheel_to_nominal_tire_ratio": 12.6,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": {
+    "experiment": "COURSE3-CAL-20261121-01",
+    "base": "trial03",
+    "status": "candidate pending native and regression checks",
+    "purpose": "disabled-feature equivalence probe"
+  },
+  "handwheel_to_inner_tire_deg": [
+    [
+      -150,
+      -11.288239671637752
+    ],
+    [
+      -74.800003052,
+      -5.706558047643793
+    ],
+    [
+      -14.130808976342838,
+      0
+    ],
+    [
+      73.199996948,
+      8.041475034352313
+    ],
+    [
+      150,
+      14.173386858429678
+    ]
+  ],
+  "native_project": "simulator/variants/course3_20261121",
+  "native_binary_sha256": "3152711191ca05b92c9a1e64b406a8ba8ae55b083a8c29cc2b91a42cb7b627de"
+}
