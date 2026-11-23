@@ -1,0 +1,31 @@
+{
+  "Initial": {
+    "steering": "experiments/evidence/2026-11-22_lat3_three_models/models/Baseline.json",
+    "drive": "models/candidates/lift_2026-11-14_baseline.json",
+    "meaning": "Frozen initial vehicle defaults; instrumented replay, not the historical executable.",
+    "steering_sha256": "171810068f1655b917de4bf608f2ba88c37c77186862fad01babaee4ec3e88a6",
+    "drive_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b"
+  },
+  "Lift-refined": {
+    "steering": "experiments/evidence/2026-11-23_four_stage_comparison/models/Lift-refined.json",
+    "drive": "models/candidates/lift_2026-11-14_v7.json",
+    "meaning": "LIFT-CAL-20261114-v7 drivetrain with original vehicle steering. No November 17 neighbor or November 20 steering correction.",
+    "steering_sha256": "bcb15e9b667ee7a22530dcc6646ee51181f4676b42c9f1b9494da867403aff62",
+    "drive_sha256": "157ff758bbc92e828b40af89c09d757e4e3dedcfa2d18658e33b3c0576ec8d6d"
+  },
+  "Ground-refined": {
+    "steering": "models/candidates/steering_field_2026-11-21_trial03.json",
+    "drive": "models/candidates/drive_field_2026-11-21_trial03.json",
+    "meaning": "Preserved trial03, before human feedback on acceptance and trajectory/turn criteria; not Previous.",
+    "replay_wrapper": "experiments/evidence/2026-11-23_four_stage_comparison/models/Ground-refined.json",
+    "steering_sha256": "6abf162894563672b08208e0de5862e393142635c927d71f20a70399930ba8b9",
+    "drive_sha256": "428e3d053468705d098c73e2c14e28661ca0b39f00483cb0c29684074bca4880"
+  },
+  "R6V2": {
+    "steering": "models/candidates/steering_r5_stages_2026-11-22_R6V2.json",
+    "drive": "models/candidates/drive_r5_stages_2026-11-22_R6V2.json",
+    "meaning": "Preserved final research comparison candidate after human guidance; not universal improvement.",
+    "steering_sha256": "274e371300c6699bab4bfdfa5d03588321c78419c4da3663d6651714aade0233",
+    "drive_sha256": "9351fa46eca520ed4118db1a377e89d9f75ae0b9cc0f172f1b1cc10d25c8e3ea"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model_id": "INITIAL-20261110-INSTRUMENTED-REPLAY",
+  "base_longitudinal_model": "models/candidates/lift_2026-11-14_baseline.json",
+  "base_longitudinal_sha256": "51a7e00de8295c33784568bce8be97cbd54d80b8bf66621d101d7662e0f97c3b",
+  "handwheel_to_nominal_tire_ratio": 7.5,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": "Frozen initial vehicle defaults; steering dynamics fields are ignored by baseline_passthrough. Linear pedals; no measured corrections.",
+  "baseline_passthrough": true,
+  "native_project": "simulator/variants/lat3_three_models_20261122",
+  "native_binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418"
+}

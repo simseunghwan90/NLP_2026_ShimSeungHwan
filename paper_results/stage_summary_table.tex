@@ -1,0 +1,16 @@
+\begin{table*}[!t]
+\centering\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Model & \shortstack{LAT3\\Speed RMSE\\(m/s)} & \shortstack{LAT5\\Position RMSE\\(m)} & \shortstack{LON5\\Speed RMSE\\(m/s)} & \shortstack{MOVE s2\\Turn Error\\(rev)} \\
+\midrule
+Initial & 8.146 & 38.39$^{*}$ & 5.244 & 17.072$^{*}$ \\
+Lift-refined & 1.151 & 36.83 & 2.035 & 9.248 \\
+Ground-refined & 0.221 & 37.60 & 0.663 & 2.134 \\
+R6V2 & 0.220 & 2.92 & 0.462 & 0.005 \\
+\bottomrule
+\end{tabular}
+\caption{Representative errors across development stages; lower is better. LAT3 values are equal-weight means across three windows. $^{*}$Initial-model rollouts that failed wheel-contact validation, retained for diagnostic comparison. All results use development data.}
+\label{tab:stage_summary}
+\end{table*}

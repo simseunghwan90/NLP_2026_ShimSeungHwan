@@ -1,0 +1,36 @@
+\begin{center}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Test & Model & \shortstack{Speed RMSE\\(m/s)} & \shortstack{Position RMSE\\(m)} & \shortstack{Endpoint Error\\(m)} & \shortstack{Turn Error\\(rev)} \\
+\midrule
+LAT3 (mean) & Initial & 8.146 & 78.69 & 126.90 & 0.410 \\
+ & Lift-refined & 1.151 & 13.00 & 22.97 & 0.112 \\
+ & Ground-refined & 0.221 & 2.19 & 3.32 & 0.005 \\
+ & R6V2 & 0.220 & 2.18 & 3.30 & 0.005 \\
+\addlinespace[2pt]
+LAT5 L s1 & Initial$^{*}$ & 12.075 & 38.39 & 16.77 & 10.903 \\
+ & Lift-refined & 3.583 & 36.83 & 9.23 & 3.058 \\
+ & Ground-refined & 0.901 & 37.60 & 5.49 & 0.969 \\
+ & R6V2 & 0.113 & 2.92 & 2.98 & 0.011 \\
+\addlinespace[2pt]
+LON5 A$-$ 50 s1 & Initial & 5.244 & 167.93 & 216.12 & 1.117 \\
+ & Lift-refined & 2.035 & 205.03 & 335.61 & 0.791 \\
+ & Ground-refined & 0.663 & 40.66 & 74.71 & 0.082 \\
+ & R6V2 & 0.462 & 35.11 & 63.56 & 0.071 \\
+\addlinespace[2pt]
+MOVE s1 & Initial$^{*}$ & 10.958 & 157.21 & 199.95 & 12.775 \\
+ & Lift-refined & 5.252 & 84.10 & 111.16 & 7.111 \\
+ & Ground-refined & 1.257 & 42.64 & 46.97 & 1.268 \\
+ & R6V2 & 1.189 & 31.33 & 32.23 & 1.139 \\
+\addlinespace[2pt]
+MOVE s2 & Initial$^{*}$ & 10.623 & 16.36 & 3.76 & 17.072 \\
+ & Lift-refined & 5.697 & 16.55 & 17.90 & 9.248 \\
+ & Ground-refined & 1.767 & 17.73 & 10.76 & 2.134 \\
+ & R6V2 & 0.079 & 1.69 & 2.38 & 0.005 \\
+\bottomrule
+\end{tabular}
+\captionof{table}{Four-stage vehicle-model comparison. Lower values indicate smaller errors. LAT3 values are equal-weight means across three replay windows. $^{*}$Initial-model rollouts that completed but failed wheel-contact validation. Ground-refined corresponds to \texttt{trial03}. All evaluations use development data rather than independent held-out measurements.}
+\label{tab:additional_summary}
+\end{center}

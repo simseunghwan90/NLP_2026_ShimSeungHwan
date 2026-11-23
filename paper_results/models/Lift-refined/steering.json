@@ -1,0 +1,19 @@
+{
+  "model_id": "LIFT-CAL-20261114-v7-ORIGINAL-STEERING-REPLAY",
+  "base_longitudinal_model": "models/candidates/lift_2026-11-14_v7.json",
+  "base_longitudinal_sha256": "157ff758bbc92e828b40af89c09d757e4e3dedcfa2d18658e33b3c0576ec8d6d",
+  "handwheel_to_nominal_tire_ratio": 7.5,
+  "handwheel_limit_deg": 150.0,
+  "handwheel_resolution_deg": 0.1,
+  "effective_delay_s": 0.017544,
+  "natural_frequency_rad_s": 11.254078,
+  "damping_ratio": 0.20623,
+  "estimated_rate_limit_deg_s": 140.0,
+  "feedback_period_s": 0.021,
+  "nominal_tire_angle_convention": "inner front wheel; neighbor angle convention unknown",
+  "input_boundary": "decoded final CAN handwheel target; independent of BSW steer map",
+  "provenance": "Original steering passthrough plus preserved v7 drive. Steering dynamic fields are ignored; no later steering correction.",
+  "baseline_passthrough": true,
+  "native_project": "simulator/variants/four_stage_20261123",
+  "native_binary_sha256": "f4cee2647d9a12fe8e3cc81f8fe59484c4f8147734881fa00cb5b789d05c5418"
+}

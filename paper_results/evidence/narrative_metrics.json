@@ -1,0 +1,98 @@
+[
+  {
+    "case": "LON5_Aneg_v50_s1",
+    "model": "Initial",
+    "metric": "position_rmse_m",
+    "printed_value": "167.93"
+  },
+  {
+    "case": "LON5_Aneg_v50_s1",
+    "model": "Lift-refined",
+    "metric": "position_rmse_m",
+    "printed_value": "205.03"
+  },
+  {
+    "case": "LAT5_L_s1",
+    "model": "Ground-refined",
+    "metric": "position_rmse_m",
+    "printed_value": "37.60"
+  },
+  {
+    "case": "LAT5_L_s1",
+    "model": "R6V2",
+    "metric": "position_rmse_m",
+    "printed_value": "2.92"
+  },
+  {
+    "case": "LAT5_L_s1",
+    "model": "Ground-refined",
+    "metric": "turn_error",
+    "printed_value": "0.969"
+  },
+  {
+    "case": "LAT5_L_s1",
+    "model": "R6V2",
+    "metric": "turn_error",
+    "printed_value": "0.011"
+  },
+  {
+    "case": "LON5_Aneg_v50_s1",
+    "model": "Initial",
+    "metric": "speed_rmse_mps",
+    "printed_value": "5.244"
+  },
+  {
+    "case": "LON5_Aneg_v50_s1",
+    "model": "R6V2",
+    "metric": "speed_rmse_mps",
+    "printed_value": "0.462"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "Ground-refined",
+    "metric": "turn_error",
+    "printed_value": "2.134"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "R6V2",
+    "metric": "turn_error",
+    "printed_value": "0.005"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "Ground-refined",
+    "metric": "position_rmse_m",
+    "printed_value": "17.73"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "R6V2",
+    "metric": "position_rmse_m",
+    "printed_value": "1.69"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "Ground-refined",
+    "metric": "endpoint_m",
+    "printed_value": "10.76"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s2",
+    "model": "R6V2",
+    "metric": "endpoint_m",
+    "printed_value": "2.38"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s1",
+    "model": "R6V2",
+    "metric": "position_rmse_m",
+    "printed_value": "31.33"
+  },
+  {
+    "case": "MOVE_LAT3_Apos_s1",
+    "model": "R6V2",
+    "metric": "turn_error",
+    "printed_value": "1.139"
+  }
+]

@@ -1,0 +1,59 @@
+\begin{center}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Window & Model & \shortstack{Speed RMSE\\(m/s)} & \shortstack{Position RMSE\\(m)} & \shortstack{Endpoint Error\\(m)} & \shortstack{Turn Error\\(rev)} \\
+\midrule
+LAT3 A$+$ s1 & Initial & 6.064 & 71.14 & 96.93 & 0.280 \\
+ & Lift-refined & 0.600 & 6.85 & 9.32 & 0.064 \\
+ & Ground-refined & 0.212 & 2.95 & 3.64 & 0.009 \\
+ & R6V2 & 0.208 & 2.91 & 3.59 & 0.009 \\
+\addlinespace[2pt]
+LAT3 A$+$ s2 & Initial & 9.479 & 85.12 & 144.89 & 0.496 \\
+ & Lift-refined & 1.697 & 19.11 & 35.50 & 0.147 \\
+ & Ground-refined & 0.273 & 2.42 & 4.25 & 0.002 \\
+ & R6V2 & 0.275 & 2.53 & 4.35 & 0.002 \\
+\addlinespace[2pt]
+LAT3 A$-$ s1 & Initial & 8.893 & 79.81 & 138.88 & 0.456 \\
+ & Lift-refined & 1.157 & 13.03 & 24.10 & 0.124 \\
+ & Ground-refined & 0.179 & 1.19 & 2.06 & 0.004 \\
+ & R6V2 & 0.177 & 1.11 & 1.96 & 0.004 \\
+\addlinespace[2pt]
+LAT5 L s1 & Initial$^{*}$ & 12.075 & 38.39 & 16.77 & 10.903 \\
+ & Lift-refined & 3.583 & 36.83 & 9.23 & 3.058 \\
+ & Ground-refined & 0.901 & 37.60 & 5.49 & 0.969 \\
+ & R6V2 & 0.113 & 2.92 & 2.98 & 0.011 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\captionof{table}{Individual replay-window errors: LAT3 and LAT5. $^{*}$Complete rollout with wheel-contact validation failure.}
+\label{tab:all_windows_0}
+\end{center}
+\begin{center}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Window & Model & \shortstack{Speed RMSE\\(m/s)} & \shortstack{Position RMSE\\(m)} & \shortstack{Endpoint Error\\(m)} & \shortstack{Turn Error\\(rev)} \\
+\midrule
+LON5 A$-$ 50 s1 & Initial & 5.244 & 167.93 & 216.12 & 1.117 \\
+ & Lift-refined & 2.035 & 205.03 & 335.61 & 0.791 \\
+ & Ground-refined & 0.663 & 40.66 & 74.71 & 0.082 \\
+ & R6V2 & 0.462 & 35.11 & 63.56 & 0.071 \\
+\addlinespace[2pt]
+MOVE LAT3 A$+$ s1 & Initial$^{*}$ & 10.958 & 157.21 & 199.95 & 12.775 \\
+ & Lift-refined & 5.252 & 84.10 & 111.16 & 7.111 \\
+ & Ground-refined & 1.257 & 42.64 & 46.97 & 1.268 \\
+ & R6V2 & 1.189 & 31.33 & 32.23 & 1.139 \\
+\addlinespace[2pt]
+MOVE LAT3 A$+$ s2 & Initial$^{*}$ & 10.623 & 16.36 & 3.76 & 17.072 \\
+ & Lift-refined & 5.697 & 16.55 & 17.90 & 9.248 \\
+ & Ground-refined & 1.767 & 17.73 & 10.76 & 2.134 \\
+ & R6V2 & 0.079 & 1.69 & 2.38 & 0.005 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\captionof{table}{Individual replay-window errors: LON5 and MOVE. $^{*}$Complete rollout with wheel-contact validation failure.}
+\label{tab:all_windows_1}
+\end{center}
