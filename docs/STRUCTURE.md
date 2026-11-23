@@ -1,14 +1,22 @@
-# 공개 코드 구성
+# 코드 구성
 
-- `scripts/reproduce.py`: 독자가 사용하는 표·그림 재생성 진입점이다.
-- `analysis/`: 기존 표·그림 코드와 직접 의존 모듈이다. 원본 바이트를 유지한다.
-- `models/`: 비교 모델과 보정 계보의 기존 설정이다. 모델명을 새로 해석하지 않는다.
-- `expected/`: 논문에 사용한 기존 표·수치·그림과 모델 정의이다.
-- `simulator/projects/`: 비교 프로젝트의 소스·설정이다. Content와 기존 바이너리는 별도 배포 묶음에 있다.
-- `calibration/`: 보정 과정의 소스와 당시 스냅샷이다. 과거 작업 공간의 경로를 보존하며 기본 재생성 명령은 이 스크립트를 실행하지 않는다. 전체 보정 과정을 새 환경에서 다시 수행할 수 있다고 보증하지 않는다.
+| 경로 | 내용 |
+|---|---|
+| [scripts/reproduce.py](../scripts/reproduce.py) | 표·그림 생성 및 기준 결과 대조 |
+| [analysis/](../analysis/) | 지표 집계, 표 작성, 시각화 코드 |
+| [models/](../models/) | 차량 응답 파라미터와 보정 후보 |
+| [expected/](../expected/) | 논문에 사용한 표·그림, 모델 정의, 비교 구간 |
+| [simulator/projects/](../simulator/projects/) | Unreal 프로젝트 소스와 설정 |
+| [calibration/](../calibration/) | 보정 단계별 코드와 당시 작업 사본 |
 
-임시 디버깅 자료·빌드 캐시·후속 모델 탐색·예시 논문·과제 안내문·원고 초안은 기본 공개 코드에서 제외한다. 보정 스냅샷에 포함된 테스트는 당시 검증의 근거로 유지한다.
+CAN·rosbag·DBC·실행 로그는 [데이터셋](https://huggingface.co/datasets/ShimSeungHwan01/2026NLP_simulation_research)에, Unreal 에셋과 Linux 모듈은 [Release](https://github.com/simseunghwan90/NLP_2026_ShimSeungHwan/releases)에 둔다.
 
-`expected/model_definitions.json`이 Baseline·Previous·R6V2의 논문상 정의이다. 후보 이름, 실행 기본값, 기각·채택 범위를 혼동하지 않는다. 초기 모델은 보존 차량 설정을 계측 빌드와 공통 맵에서 재현했으며 역사적 바이너리 그대로의 실행은 아니다.
+## 보정 기록 읽기
 
-확인 필요: 원격 GitHub·데이터셋 주소, 공개 라이선스와 외부 소스·에셋의 배포 조건을 확정한다. 제3자 코드를 일괄적으로 새 라이선스로 바꾸지 않는다.
+`calibration/source/`는 리프트 시험, 실차 응답 보정, trial03 후속 작업의 코드이다. `calibration/source_snapshot/`은 단계별 보정 작업 당시의 사본이다. 가설과 실험 결과는 데이터셋의 `calibration/`에, 에이전트 대화와 사람의 개입은 `agent_records/`에 있다.
+
+이 기록에는 당시 경로와 실행 명령이 남아 있다. 새 환경에서 표와 그림을 생성할 때는 루트 README의 명령을 사용한다. 보정 스크립트 전체를 다시 실행하는 절차는 제공하지 않는다.
+
+## 라이선스
+
+확인 필요: 이 배포본의 공개 라이선스와 제3자 코드·에셋의 재배포 조건. 포함된 외부 자료는 각 원본의 라이선스를 따른다.

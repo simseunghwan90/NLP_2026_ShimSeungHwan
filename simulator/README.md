@@ -1,7 +1,20 @@
-# 시뮬레이터 소스
+# A1 Simulator
 
-`projects/lat3_three_models_20261122`는 계측 초기 모델과 Previous 비교에 사용한 프로젝트이다. `projects/r5_creep_viscous_20261122`는 보존된 R6V2 재생 프로젝트이다. 두 프로젝트의 소스·설정을 원본 그대로 복사한다.
+[Download](https://github.com/simseunghwan90/NLP_2026_ShimSeungHwan/releases) · [Dataset](https://huggingface.co/datasets/ShimSeungHwan01/2026NLP_simulation_research)
 
-해당 Content·플러그인·기존 Linux 모듈은 별도 시뮬레이터 배포 폴더의 프로젝트 아카이브에 있다. 엔진 설치와 캐시는 포함하지 않는다. 현재 묶음은 UE4.27 프로젝트 스냅샷이며 엔진 없이 실행하는 cooked 게임 패키지가 아니다.
+논문의 차량 응답 비교에 사용한 Unreal Engine 4.27 프로젝트이다. 이 폴더에는 소스와 설정을 제공하며, Content·플러그인·Linux 모듈을 포함한 프로젝트는 Release에서 받는다.
 
-확인 필요: 별도 머신의 UE4.27 프로젝트 실행, 독립 실행 패키징, 재생에 필요한 외부 의존성과 에셋의 배포 범위를 확인한다. 기존 바이너리 해시는 연구 버전의 증거이며 새 머신 실행 성공을 뜻하지 않는다.
+| 프로젝트 | 비교 모델 |
+|---|---|
+| [lat3_three_models_20261122](projects/lat3_three_models_20261122/) | Baseline, Previous |
+| [r5_creep_viscous_20261122](projects/r5_creep_viscous_20261122/) | R6V2 |
+
+Release에는 2026-11-10 초기 모델 아카이브도 포함한다. 비교 모델별 설정과 해시는 [model_definitions.json](../expected/model_definitions.json)에 있다.
+
+## 사용 환경
+
+프로젝트를 열려면 별도로 설치한 UE4.27이 필요하다. 엔진과 빌드 캐시는 배포본에 포함하지 않는다. 독립 실행 게임 패키지는 아직 제공하지 않는다.
+
+표·그림 재현에는 Unreal이 필요하지 않다. [루트 README](../README.md)의 명령을 사용한다.
+
+확인 필요: 새 머신에서의 프로젝트 빌드·실행과 전체 입력 재생 절차.

@@ -1,27 +1,43 @@
-# 재현 범위
+# 재현 안내
 
-HW2의 Baseline·Previous·R6V2 개발 비교 7구간과 21개 보존 결과를 사용한다. 28개 개발 구간은 시험군 표와 보정 과정의 자료이다. 독립 최종 평가 자료로 분류하지 않는다.
+[README의 명령](../README.md#표와-그림-재현)으로 논문에 사용한 표와 그림을 생성한다. 입력은 28개 개발 구간의 목록과 7개 구간에 대한 Baseline·Previous·R6V2의 재생 결과이다.
 
-README의 한 명령이 다음 산출물을 생성한다. `--output`은 비어 있거나 없는 경로로 지정한다.
+## 출력 파일
 
-| 원고 대상 | 생성 파일 | 입력 |
-|---|---|---|
-| 개발 시험군 표 | `inventory.csv`, `inventory_table.tex` | 고정된 28개 window |
-| 주요 모델 비교표 | `metrics.csv`, `grouped_metrics.csv`, `results_table.tex` | 7구간 × 3모델 결과·비교 시계열 |
-| 전체 구간별 부록 표 | `complete_table.tex` | 같은 21개 결과 |
-| 대표·MOVE 그림 | `figures/representative_replays.*`, `figures/move_diagnostics.*` | 보존된 실측/시뮬레이션 시계열 |
-| 보정 비용 수치 | `costs.json` | 보존된 실행 색인 |
+모든 파일은 `--output` 경로에 저장한다. 기본 경로는 `results/hw2`이며, 이미 파일이 있으면 새 경로를 지정한다.
 
-`scripts/reproduce.py`는 데이터 manifest의 상대 경로를 임시 작업 공간에 복원하고 원래 `build_data.py`, `plot.py`, `publish.py` 함수를 호출한다. 원본 논문 PDF와 로컬 연구 폴더가 필요하지 않다. 원래의 표 생성 소스는 바이트 단위로 보존한다.
+| 논문 자료 | 출력 파일 |
+|---|---|
+| 개발 시험 목록 | `inventory.csv`, `inventory_table.tex` |
+| 모델 비교표 | `metrics.csv`, `grouped_metrics.csv`, `results_table.tex` |
+| 전체 21개 결과 | `complete_table.tex` |
+| 본문 수치 | `numeric_macros.tex` |
+| 대표 구간·MOVE 분석 그림 | `figures/representative_replays.*`, `figures/move_diagnostics.*` |
+| 보정 비용 | `costs.json` |
+| 재현 검사 결과 | `verification.json` |
 
-수치 CSV를 `expected/`와 절대 허용오차 1e-9로 비교하고 네 LaTeX 표·매크로 파일을 바이트 단위로 대조한다. 원래 결과의 PASS 18개와 FAIL 3개를 유지한다. 그림 PDF의 생성 시각 차이는 수치 일치 판정에 사용하지 않는다.
+## 재현하는 내용
 
-이 명령은 보존된 평가 결과에서 표·그림을 재구성한다. 일부 RMSE는 당시 `result.json`의 평가값을 읽는다. 원시 CAN 디코딩부터 시뮬레이션·평가까지 새로 실행한 검증으로 해석하지 않는다. 물리 모델 재실행과 에이전트 보정 재실행은 별도 범위이다.
+`scripts/reproduce.py`는 데이터셋의 파일 해시를 검사하고 표·그림 생성 코드를 실행한다. 데이터셋의 경로 정보는 임시 디렉터리에서 복원하므로 원래 연구 폴더나 논문 PDF는 필요하지 않다.
+
+이 절차는 저장된 평가 결과를 사용한다. 일부 RMSE는 각 실행의 `result.json`에서 읽으며, CAN 디코딩·시뮬레이션·모델 보정은 다시 실행하지 않는다. 재생 기록 21개에는 PASS 18개와 FAIL 3개가 포함된다.
+
+생성한 CSV 3개는 [기준 결과](../expected/)와 절대 허용오차 `1e-9`로 비교한다. LaTeX 파일 4개는 내용이 정확히 같은지, `costs.json`은 값이 같은지 검사한다. PDF 생성 시각은 비교에서 제외한다.
 
 ## 환경과 seed
 
-검증 환경은 Linux, Python 3.10.12, NumPy 1.26.4, pandas 1.5.3, Matplotlib 3.5.1이다. 전이 의존성까지의 관측 버전은 `environment_observed.json`에 기록한다. 설치 명령은 새 PC에서 별도 확인해야 한다.
+기존 재현 검사에 사용한 환경은 Linux, Python 3.10.12, NumPy 1.26.4, pandas 1.5.3, Matplotlib 3.5.1이다. 전체 패키지 버전은 [environment_observed.json](../environment_observed.json)에 기록했다.
 
-LLM sampling seed는 확인한 세션 기록에서 미기록이다. 전체 연구에 seed가 없었다고 쓰지 않는다. Stage 7과 creep 후보의 수치 최적화에는 `20261122`가 명시되어 있으며 해당 소스·설계 기록을 함께 보존한다. 표 재구성 경로에서는 난수 추출을 추가하지 않는다.
+| 항목 | 기록 |
+|---|---|
+| LLM sampling seed | 세션 기록에 없음 |
+| Stage 7·creep 후보 수치 최적화 | `20261122` |
+| 표·그림 생성 | 난수 추출 없음 |
 
-현재 검증 범위는 공개 사본을 이용한 로컬 격리 디렉터리 실행이다. HW2 지침의 새 컴퓨터 설치·실행 확인은 별도 남은 항목이다. 관측된 환경의 패키지를 공유한 실행을 새 컴퓨터 검증으로 표시하지 않는다.
+공개 파일만 사용하는 로컬 재현 검사는 통과했다. 확인 필요: 새 컴퓨터에서의 의존성 설치와 실행.
+
+## 비교 모델
+
+Baseline은 실측 보정 전 차량 설정을 공통 맵과 계측 빌드에서 실행한 모델이다. Previous는 `STEER-FIELD-20261120-v2`와 `DRIVE-FIELD-20261120-v1`을 사용한다. R6V2는 이번 비교에서 선택한 보정 모델이다. 설정 파일과 해시는 [model_definitions.json](../expected/model_definitions.json)에 있다.
+
+이 비교에는 보정과 모델 선택에 사용한 개발 자료를 사용한다. 독립 주행 데이터에 대한 최종 평가는 포함하지 않는다.
